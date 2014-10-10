@@ -1,7 +1,8 @@
 mapmyrun2gpx
 ============
 
-Converts MapMyRun Data to GPX File - Linux only, tested on Debian
+Converts MapMyRun workout data to a [GPX](http://www.topografix.com/gpx.asp) 
+formatted file - Linux only, tested on Debian
 
 This is a VERY SIMPLISTIC implementation of getting your precious workout data
 from [mapmyrun](http://www.mapmyrun.com) with all the timings.
@@ -10,8 +11,9 @@ Motivation
 ----------
 
 I'm moving from mapmyrun to [Strava](http://www.strava.com/) and want to take 
-my data with me - after all, it's mine (I did all the running!). Unfortunately 
-mapmyrun only gives you access to the route data, not how you ran it.
+my data with me and import it - after all, it's mine (I did all the running!). 
+Unfortunately mapmyrun only gives you access to the route data, not how you ran 
+it.
 
 What does it do?
 ----------------
