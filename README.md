@@ -37,11 +37,13 @@ Just find the workout IDs of the workouts you want GPX data for. That ID is
 present in the URL, for example: http://www.mapmyrun.com/workout/123456789.
 Add one or more at the end of the _getmmr2gpx.py_ file thus: 
 
+```python
     if __name__ == '__main__':
 
         # Chuck 'em in here at will!
         process('123456788')
         process('123456789')
+```
 
 Add as many as you like in the code above - it will chew though them all, 
 leaving you a load of *.gpx files in the output directory. When you're ready
