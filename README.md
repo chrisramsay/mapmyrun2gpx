@@ -16,6 +16,8 @@ my data with me and import it - after all, it's mine (I did all the running!).
 Unfortunately mapmyrun only gives you access to the route data, not how you ran 
 it.
 
+Read the whole story here: http://www.chrisramsay.co.uk/posts/2014/10/moving-from-mapmyrun-to-strava/
+
 What does it do?
 ----------------
 
