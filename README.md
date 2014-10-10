@@ -34,7 +34,8 @@ that each workout is set to be accessible publically. That's done by selecting
 the 'world' button on the top right hand toolbar of the workout view.
 
 Just find the workout IDs of the workouts you want GPX data for. That ID is 
-present in the URL, for example: http://www.mapmyrun.com/workout/123456789
+present in the URL, for example: http://www.mapmyrun.com/workout/123456789.
+Add one or more at the end of the _getmmr2gpx.py_ file thus: 
 
     if __name__ == '__main__':
 
