@@ -1,11 +1,12 @@
 mapmyrun2gpx
 ============
 
-Converts MapMyRun workout data to a [GPX](http://www.topografix.com/gpx.asp) 
-formatted file - Linux only, tested on Debian
+Converts [mapmyrun](http://www.mapmyrun.com) workout data to a 
+[GPX](http://www.topografix.com/gpx.asp) formatted file - Linux only, tested 
+on Debian
 
 This is a VERY SIMPLISTIC implementation of getting your precious workout data
-from [mapmyrun](http://www.mapmyrun.com) with all the timings.
+from mapmyrun with all the timings.
 
 Motivation
 ----------
