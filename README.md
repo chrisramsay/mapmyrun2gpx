@@ -1,10 +1,10 @@
 mapmyrun2gpx
 ============
 
-Converts MapMyRun Data to GPX File.
+Converts MapMyRun Data to GPX File - Linux only, tested on Debian
 
 This is a VERY SIMPLISTIC implementation of getting your precious workout data
-from [mapmyrun](http://www.mapmyrun.com).
+from [mapmyrun](http://www.mapmyrun.com) with all the timings.
 
 Motivation
 ----------
