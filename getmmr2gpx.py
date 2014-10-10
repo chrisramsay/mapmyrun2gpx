@@ -42,6 +42,7 @@ def process(run_id):
             time.mktime(time.strptime(start, '%Y-%m-%dT%H:%M:%S+00:00'))
         )
 
+        # Lifted from: http://en.wikipedia.org/wiki/GPS_Exchange_Format
         xml_skel = '<?xml version="1.0" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://w' +\
             'ww.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.' +\
             'com/xmlschemas/TrackPointExtension/v1" creator="Oregon 400t" version="1.1" ' +\
@@ -82,7 +83,7 @@ def process(run_id):
         # Write out to file without any further ado
         with open('./done/{0}.gpx'.format(run_id), 'w') as f:
             
-            # Off we go
+            # Off we go - get rid of nasty ns0: namespaces left by lmxl
             f.write(ET.tostring(tree).replace('ns0:', ''))
 
         # Done, so close handler

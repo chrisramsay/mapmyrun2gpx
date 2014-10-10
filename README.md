@@ -13,7 +13,8 @@ It makes a request to a workout page, as identified by its ID, and scrapes a
 JSON request for building the maps. It then takes the start time of the 
 workout and uses that as a baseline for populating the rest of the GPX data.
 
-Once done it drops the GPX data into a file named 'workout_ID'.gpx
+Once done it drops the GPX data into a file named 'workout_ID'.gpx in the 
+output directory _done_.
 
 How to run it
 -------------
