@@ -9,7 +9,7 @@ from [mapmyrun](http://www.mapmyrun.com).
 Motivation
 ----------
 
-I'm moving from _mapmyrun_ to [Strava](http://www.strava.com/) and want to take 
+I'm moving from mapmyrun to [Strava](http://www.strava.com/) and want to take 
 my data with me - after all, it's mine (I did all the running!). Unfortunately 
 mapmyrun only gives you access to the route data, not how you ran it.
 
@@ -26,9 +26,9 @@ output directory _done_.
 How to run it
 -------------
 
-NOTE: In order for this script to access your workout data you must make sure that 
-each workout is set to be accessible publically. That's done by selecting the
-'world' button on the top right hand toolbar of the workout view.
+NOTE: In order for this script to access your workout data you must make sure 
+that each workout is set to be accessible publically. That's done by selecting 
+the 'world' button on the top right hand toolbar of the workout view.
 
 Just find the workout IDs of the workouts you want GPX data for. That ID is 
 present in the URL, for example: http://www.mapmyrun.com/workout/123456789
